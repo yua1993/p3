@@ -8,7 +8,7 @@ html {
     margin: 30px 30px 30px 30px;
 }
 .abm {
-    height: 300px;
+    height: 500px;
 }
 
 
@@ -21,8 +21,9 @@ html {
 
 
 .skill {
-    height: 500px;
-    width: 700px;
+    height: 700px;
+    width: 1000px;
+
     margin-left: auto;
     margin-right: auto;
 
@@ -46,6 +47,41 @@ html {
 
 
 
+body #title{
+    
+    margin-top: 300px;
+    height: 800px;
+    width: auto;
+    font-size: 8rem;
+}
+
+
+body {
+    position: absolute;
+    height: 800px;
+    width: auto;
+}
+
+/* 스크롤 */
+
+[data-scroll] {
+    opacity: 0;
+    will-change: transform, scale, opacity;
+    transform: translateY(6rem) scale(0.93);
+    transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+[data-scroll='in'] {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+[data-scroll='out'] {
+    opacity: 0;
+}
+
+
+
 
 
 
@@ -56,7 +92,7 @@ html {
 
 
 body .Portfolio {
-    height: 600px;
+    height: 700px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
