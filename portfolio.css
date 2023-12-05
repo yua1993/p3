@@ -82,7 +82,10 @@ body {
 
 
 
-
+body .study {
+    height: 1000px;
+    width: auto;
+}
 
 
 
